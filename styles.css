@@ -12,13 +12,14 @@ a {
 ul{
     list-style-type: none;
     display: flex;margin: 0;
-    padding: 0;
+    padding: 10px;
     gap: 16px;
 }
 
 .logo{
 font-size: 24px;
 color: #f9faf8;
+padding: 10px;
 }
 
 .header{
@@ -29,3 +30,34 @@ color: #f9faf8;
     align-items: baseline;
     border-bottom: 1px solid #ddd;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 14px;
+    margin:10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    margin:0;
+}
+
+.text-white{
+    color: #f9faf8;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+
+  }
