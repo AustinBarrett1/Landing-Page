@@ -64,3 +64,21 @@ button {
 .section-dark-blue{
     background: #1f2937;
 }
+
+.unit{
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.center-text{
+    text-align: center;
+}
+
+.square{
+    width: 100%;
+    padding-bottom: 100%;
+    border: royalblue solid;
+    border-radius: 8px;
+}
