@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background: #1f2937;
     font-family: 'Roboto', sans-serif;
   }
 
@@ -29,15 +28,15 @@ padding: 10px;
     justify-content: space-evenly;
     align-items: baseline;
     border-bottom: 1px solid #ddd;
+    background: #1f2937;
+    
 }
 
 .flex-container{
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 14px;
-    margin:10px;
-    padding: 10px;
+    gap: 14px;    
     flex-wrap: wrap;
 }
 
@@ -61,3 +60,7 @@ button {
     color: white;
 
   }
+
+.section-dark-blue{
+    background: #1f2937;
+}
