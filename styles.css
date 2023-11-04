@@ -107,3 +107,18 @@ button {
     max-width: 70%;
 }
 
+.blue-box{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.button-in-call{
+    align-self: center;
+    justify-self: center;
+    border:  1px solid #ddd;
+}
