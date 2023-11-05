@@ -21,6 +21,7 @@ li{
     padding: 0;
 }
 
+
 .logo{
 font-size: 24px;
 color: #f9faf8;
@@ -30,6 +31,16 @@ margin-right: 3rem;
 .header{
     border-bottom: 1px solid #ddd;
     background: #1f2937;
+}
+
+.title-big{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.sub-text{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .nav{
@@ -44,7 +55,7 @@ margin-right: 3rem;
 }
 
 .max-page-width{
-    max-width: 80rem;
+    max-width: 70rem;
     margin-left: auto;
     margin-right: auto;
 }
