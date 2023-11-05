@@ -9,6 +9,10 @@ a {
     color:#e5e7eb
 }
 
+a:hover{
+    color: #3882f6;
+}
+
 ul{
     list-style-type: none;
     display: flex;
