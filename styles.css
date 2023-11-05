@@ -38,6 +38,7 @@ margin-right: 3rem;
 .header{
     border-bottom: 1px solid #ddd;
     background: #1f2937;
+    padding: 1em;
 }
 
 .title-big{
@@ -76,8 +77,12 @@ margin-right: 3rem;
 }
 
 .padded-section{
-    padding: 1em;
-    margin: 0;
+    padding: 4em 1em 6em 1em;
+}
+
+.margin-section{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .text-white{
