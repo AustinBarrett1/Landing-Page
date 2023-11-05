@@ -21,12 +21,19 @@ li{
     padding: 0;
 }
 
+.fit{
+    object-fit: contain;
+}
 
+.image-main{
+    min-width: 400px;
+}
 .logo{
 font-size: 24px;
 color: #f9faf8;
 margin-right: 3rem;
 }
+
 
 .header{
     border-bottom: 1px solid #ddd;
