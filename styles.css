@@ -11,28 +11,30 @@ a {
 
 ul{
     list-style-type: none;
-    display: flex;margin: 0;
-    padding: 10px;
+    display: flex;
+    margin: 0;
     gap: 16px;
+}
+
+li{
+    margin: 0;
+    padding: 0;
 }
 
 .logo{
 font-size: 24px;
 color: #f9faf8;
-padding: 10px;
+margin-right: 3rem;
 }
 
 .header{
     border-bottom: 1px solid #ddd;
     background: #1f2937;
-    
-    
 }
 
 .nav{
     display: flex;
     margin: 0;
-    padding: 10px;
     justify-content: space-between;
     align-items: baseline;
 }
