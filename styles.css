@@ -21,6 +21,11 @@ li{
     padding: 0;
 }
 
+h1, h2{
+    padding: 0;
+    margin: 0;
+}
+
 .fit{
     object-fit: contain;
 }
@@ -44,6 +49,13 @@ margin-right: 3rem;
 .title-big{
     font-size: 48px;
     font-weight: bold;
+}
+
+.secondary-title{
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 0.5em;
+    margin-bottom: 2em;
 }
 
 .sub-text{
@@ -72,12 +84,12 @@ margin-right: 3rem;
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 3em;    
+    gap: 4em;    
     flex-wrap: wrap;
 }
 
 .padded-section{
-    padding: 4em 1em 6em 1em;
+    padding: 3em 1em 4em 1em;
 }
 
 .margin-section{
@@ -142,7 +154,7 @@ button {
     justify-content: center;
     padding: 10px;
     margin: 10px;
-    max-width: 70%;
+    max-width: 65rem;
 }
 
 .blue-box{
